@@ -1991,7 +1991,7 @@ jspm-resolve@^2.1.0:
     jspm "^0.16.32"
     resolve "^1.1.7"
 
-jspm-tsc-update@^0.1.1:
+jspm-tsc-update@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/jspm-tsc-update/-/jspm-tsc-update-0.1.2.tgz#1f9f82e7af7ed8aa976b2c63534b97b2485b7eee"
   dependencies:

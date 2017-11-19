@@ -13,9 +13,9 @@
 		"target": "es5",
 		"baseUrl": ".",
 		"lib": [
-      "es2015",
-      "dom"
-    ],
+			"es2015",
+			"dom"
+		],
 		"typeRoots": [
 			"node_modules/@types",
 			"src/types"
@@ -54,11 +54,11 @@
 				"jspm_packages/github/systemjs/plugin-text@0.0.9/*/index"
 			],
 			"ts": [
-				"jspm_packages/github/frankwallis/plugin-typescript@7.1.0"
+				"jspm_packages/github/frankwallis/plugin-typescript@7.1.1"
 			],
 			"ts/*": [
-				"jspm_packages/github/frankwallis/plugin-typescript@7.1.0/*",
-				"jspm_packages/github/frankwallis/plugin-typescript@7.1.0/*/index"
+				"jspm_packages/github/frankwallis/plugin-typescript@7.1.1/*",
+				"jspm_packages/github/frankwallis/plugin-typescript@7.1.1/*/index"
 			],
 			"@angular/compiler": [
 				"jspm_packages/npm/@angular/compiler@4.4.3"
@@ -257,11 +257,11 @@
 				"jspm_packages/npm/jspm-nodelibs-stream@0.2.1/*/index"
 			],
 			"string_decoder": [
-				"jspm_packages/npm/jspm-nodelibs-string_decoder@0.2.1"
+				"jspm_packages/npm/jspm-nodelibs-string_decoder@0.2.2"
 			],
 			"string_decoder/*": [
-				"jspm_packages/npm/jspm-nodelibs-string_decoder@0.2.1/*",
-				"jspm_packages/npm/jspm-nodelibs-string_decoder@0.2.1/*/index"
+				"jspm_packages/npm/jspm-nodelibs-string_decoder@0.2.2/*",
+				"jspm_packages/npm/jspm-nodelibs-string_decoder@0.2.2/*/index"
 			],
 			"timers": [
 				"jspm_packages/npm/jspm-nodelibs-timers@0.2.1"
@@ -278,11 +278,11 @@
 				"jspm_packages/npm/jspm-nodelibs-tty@0.2.1/*/index"
 			],
 			"typescript": [
-				"jspm_packages/npm/typescript@2.5.2"
+				"jspm_packages/npm/typescript@2.6.1"
 			],
 			"typescript/*": [
-				"jspm_packages/npm/typescript@2.5.2/*",
-				"jspm_packages/npm/typescript@2.5.2/*/index"
+				"jspm_packages/npm/typescript@2.6.1/*",
+				"jspm_packages/npm/typescript@2.6.1/*/index"
 			],
 			"url": [
 				"jspm_packages/npm/jspm-nodelibs-url@0.2.1"
@@ -313,11 +313,11 @@
 				"jspm_packages/npm/jspm-nodelibs-zlib@0.2.3/*/index"
 			],
 			"zone.js": [
-				"jspm_packages/npm/zone.js@0.8.17"
+				"jspm_packages/npm/zone.js@0.8.18"
 			],
 			"zone.js/*": [
-				"jspm_packages/npm/zone.js@0.8.17/*",
-				"jspm_packages/npm/zone.js@0.8.17/*/index"
+				"jspm_packages/npm/zone.js@0.8.18/*",
+				"jspm_packages/npm/zone.js@0.8.18/*/index"
 			],
 			"@angular/common": [
 				"jspm_packages/npm/@angular/common@4.4.3"
@@ -332,6 +332,48 @@
 			"hammerjs/*": [
 				"jspm_packages/npm/hammerjs@2.0.8/*",
 				"jspm_packages/npm/hammerjs@2.0.8/*/index"
+			],
+			"core": [
+				"jspm_packages/npm/core@1.0.111"
+			],
+			"core/*": [
+				"jspm_packages/npm/core@1.0.111/*",
+				"jspm_packages/npm/core@1.0.111/*/index"
+			],
+			"dns": [
+				"jspm_packages/npm/jspm-nodelibs-dns@0.2.1"
+			],
+			"dns/*": [
+				"jspm_packages/npm/jspm-nodelibs-dns@0.2.1/*",
+				"jspm_packages/npm/jspm-nodelibs-dns@0.2.1/*/index"
+			],
+			"https": [
+				"jspm_packages/npm/jspm-nodelibs-https@0.2.2"
+			],
+			"https/*": [
+				"jspm_packages/npm/jspm-nodelibs-https@0.2.2/*",
+				"jspm_packages/npm/jspm-nodelibs-https@0.2.2/*/index"
+			],
+			"plugin-typescript": [
+				"jspm_packages/github/frankwallis/plugin-typescript@7.1.1"
+			],
+			"plugin-typescript/*": [
+				"jspm_packages/github/frankwallis/plugin-typescript@7.1.1/*",
+				"jspm_packages/github/frankwallis/plugin-typescript@7.1.1/*/index"
+			],
+			"querystring": [
+				"jspm_packages/npm/jspm-nodelibs-querystring@0.2.2"
+			],
+			"querystring/*": [
+				"jspm_packages/npm/jspm-nodelibs-querystring@0.2.2/*",
+				"jspm_packages/npm/jspm-nodelibs-querystring@0.2.2/*/index"
+			],
+			"tls": [
+				"jspm_packages/npm/jspm-nodelibs-tls@0.2.1"
+			],
+			"tls/*": [
+				"jspm_packages/npm/jspm-nodelibs-tls@0.2.1/*",
+				"jspm_packages/npm/jspm-nodelibs-tls@0.2.1/*/index"
 			]
 		}
 	},

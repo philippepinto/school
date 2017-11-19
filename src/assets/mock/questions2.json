@@ -1,0 +1,17 @@
+[{
+    "id": 1,
+    "title": "Tu aime le sucre?",
+    "description": "Tu aimes ca.",
+    "status": {
+        "answered": false,
+        "answer": "..."
+    }
+}, {
+    "id": 2,
+    "title": "Tu aimes la farine ?",
+    "description": "Non tu n'aimes pas.",
+    "status": {
+        "answered": false,
+        "answer": "..."
+    }
+}]

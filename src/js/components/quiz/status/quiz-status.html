@@ -1,0 +1,23 @@
+<div materialize="modal" [materializeActions]="modalActions" [materializeParams]="[{dismissible: true}]" id="status" class="modal bottom-sheet">
+    <div class="modal-content">
+        <h4 class="blue-grey-text">Votre Questionnaire de Proust</h4>
+        <ul class="collection">
+            <li *ngFor="let question of questionService.questions; let i = index" class="collection-item avatar">
+                <i class="material-icons circle blue grey lighten-2">check_circle</i>
+                <span class="title black-text">Question {{ question.id }} - <i>{{ question.title }} </i></span>
+
+
+                <p class="blue-grey-text" *ngIf="question.status.answered">
+                    <span class="grey-text">Votre réponse:</span> <span>{{ question.status.answer }}</span>
+                </p>
+                <p class="grey-text" [hidden]="question.status.answered">Vous n'avez pas encore répondu à la question.</p>
+            </li>
+        </ul>
+        <div class="spacing">
+            &nbsp;
+        </div>
+    </div>
+    <div class="done-button modal-footer">
+        <span class="modal-action modal-close waves-effect waves-green btn-flat" (click)="stopAllPlayers()">Ok</span>
+    </div>
+</div>

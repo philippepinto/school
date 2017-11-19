@@ -4,9 +4,9 @@
     "description": "A music quiz in Angular2 using the Spotify API.",
     "main": "server/index.js",
     "scripts": {
+        "jspm-tsc-update": "./node_modules/.bin/jspm-tsc-update",
         "postinstall": "./node_modules/.bin/jspm install && npm run update-paths && node_modules/.bin/gulp build",
         "heroku-postbuild": "node_modules/.bin/jspm clean && npm prune --production",
-        "jspm-tsc-update": "./node_modules/.bin/jspm-tsc-update",
         "update-paths": "./node_modules/.bin/jspm-tsc-update",
         "start": "node server",
         "tsc": "./node_modules/typescript/bin/tsc",

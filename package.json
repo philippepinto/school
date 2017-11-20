@@ -64,7 +64,7 @@
         "gulp-sourcemaps": "^2.6.0",
         "gulp-tslint": "^8.1.1",
         "gulp-util": "^3.0.7",
-        "jspm": "^0.17.0-beta.41",
+        "jspm": "^0.17.0-beta.47",
         "jspm-tsc-update": "^0.1.2",
         "less": "^2.7.1",
         "lodash.assign": "^4.0.6",
